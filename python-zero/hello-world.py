@@ -108,6 +108,157 @@ while True:
         continue
         
 print('Senha correta!')
+
+
 # %%
 
 # for
+
+for i in "Eudes Cunha":
+    print(i)
+# %%
+for i in "10":
+    print(i)
+# %%
+for i in "Eudes Cunha":
+    
+    if i == 'C':
+        continue
+    elif i == ' ':
+        break
+    
+    print(i)
+# %%
+for i in "Eudes Cunha":
+    
+    if i == 'C':
+        continue
+    elif i == ' ':
+        continue
+    
+    print(i)
+# %%
+range(10)
+
+# %%
+range(0, 10) # (start, stop); quantidade = stop - start
+# %%
+range(2, 10) # (start, stop); quantidade = stop - start
+# %%
+seq = range(0, 10)
+for i in seq:
+    print(i)
+# %%
+seq = range(3, 10)
+for i in seq:
+    print(i)
+# %%
+seq = int(input("quantos 'olás' você quer?"))
+for i in range(seq):
+    print('olá')
+# %%
+seq = int(input("quantos 'olás' você quer?"))
+for i in range(seq):
+    print(i)
+    
+# %%
+for i in range(1,16):
+    if i % 2 == 0: # aqui solicitamos que a sobra seja igual a zero; isto vai retornar os números pares
+        print(i)
+
+
+# %%
+for i in range(1,16):
+    if i % 2 == 1: # aqui solicitamos que a sobra seja igual a 1; isto vai retornar os números ímpares
+        print(i)
+
+
+# %%
+bebida = 'refri, suco, água'
+
+item = str(input('Escreva qual bebida você deseja.'))
+
+if item in bebida:
+    print('Ok. Pode se dirigir ao caixa.')
+
+else:
+    print('Infelizmente não dispomos desta bebida')
+    
+
+# %%
+# programa para contar a quantidade de letras numa frase
+word = input('Digite a palavra/frase aqui') # por padrão o input retorna uma string
+quantity = 0 # para fazer contas eu preciso passar o valor inicial
+
+for i in word:
+    if i == 'a':
+        quantity += 1
+print('A palavra/frase', word, 'contém', quantity, 'vezes a letra a.')
+
+# %%
+# outra forma de contar letras ou palavras utilizando o método .count
+palavra = "carro"
+palavra.count('r')
+
+# %%
+# método .lower
+# O método lower() em Python transforma todas as letras de uma string em minúsculas
+
+plvr = "Carro, BIKE, TriCiclo".lower()
+print(plvr)
+plvr.count('c') # aqui tem que ser uma letra minúscula, já que foi utilizado o método .lower
+
+# %%
+tupla = ('Eudes', 'Cunha', 29, 1.82)
+
+print(tupla)
+
+# %%
+lista = ['Eudes', 'Cunha', 29, 1.82]
+print(lista)
+
+len(lista) # retorna o tamanho da lista
+
+# %%
+# acessando elementos de uma lista
+
+lista[0] # primeiro elemento
+
+# %%
+lista[3] # ultimo elemento
+
+
+# %%
+lista[len(lista)-1] # estou retornando o ultmilo elemento da lista
+
+
+
+# %%
+lista[len(lista)-2] # estou retornando o peltmilo elemento da lista
+
+
+# %%
+lista[:3] 
+
+
+# %%
+lista[-3] 
+
+# %%
+lista[-1] 
+
+# %%
+lista[0:2] # recuperar os elementos 0 e 1
+
+# %%
+lista[0:3] # recuperar os elementos 0 ao 2
+
+
+# %%
+
+
+dicionario = {'nomes': 'Eudes', 'kate'
+              'idades': '29, 27'
+              'aluras': '1.82, 1.54'}
+
+print(dicionario)
