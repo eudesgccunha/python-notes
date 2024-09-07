@@ -52,3 +52,4 @@ lista[::-1] # inverte a ordem e salta a cada 1 elemento
 
 # %%
 lista[::-2] # inverte a ordem e salta a cada 2 elementos
+
