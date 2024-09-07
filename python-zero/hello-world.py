@@ -214,51 +214,21 @@ tupla = ('Eudes', 'Cunha', 29, 1.82)
 print(tupla)
 
 # %%
-lista = ['Eudes', 'Cunha', 29, 1.82]
-print(lista)
-
-len(lista) # retorna o tamanho da lista
-
-# %%
-# acessando elementos de uma lista
-
-lista[0] # primeiro elemento
-
-# %%
-lista[3] # ultimo elemento
-
-
-# %%
-lista[len(lista)-1] # estou retornando o ultmilo elemento da lista
 
 
 
 # %%
-lista[len(lista)-2] # estou retornando o peltmilo elemento da lista
 
-
-# %%
-lista[:3] 
-
-
-# %%
-lista[-3] 
-
-# %%
-lista[-1] 
-
-# %%
-lista[0:2] # recuperar os elementos 0 e 1
-
-# %%
-lista[0:3] # recuperar os elementos 0 ao 2
 
 
 # %%
 
 
-dicionario = {'nomes': 'Eudes', 'kate'
-              'idades': '29, 27'
-              'aluras': '1.82, 1.54'}
 
-print(dicionario)
+# %%
+
+
+
+# %%
+
+
