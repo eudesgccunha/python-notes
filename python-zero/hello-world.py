@@ -209,26 +209,14 @@ print(plvr)
 plvr.count('c') # aqui tem que ser uma letra minúscula, já que foi utilizado o método .lower
 
 # %%
+# método .upper
+# O método upper() em Python transforma todas as letras de uma string em minúsculas
+
+plvr = "Carro, BIKE, TriCiclo".upper()
+print(plvr)
+plvr.count('C') # aqui tem que ser uma letra minúscula, já que foi utilizado o método .lower
+
+# %%
 tupla = ('Eudes', 'Cunha', 29, 1.82)
 
 print(tupla)
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-
-
