@@ -215,8 +215,3 @@ plvr.count('c') # aqui tem que ser uma letra minúscula, já que foi utilizado o
 plvr = "Carro, BIKE, TriCiclo".upper()
 print(plvr)
 plvr.count('C') # aqui tem que ser uma letra minúscula, já que foi utilizado o método .lower
-
-# %%
-tupla = ('Eudes', 'Cunha', 29, 1.82)
-
-print(tupla)

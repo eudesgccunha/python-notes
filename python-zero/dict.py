@@ -19,3 +19,13 @@ nome = dictionary['nome'][1]
 print(nome)
 
 # %%
+# método keys retorna as chaves do dicionário
+dictionary.keys()
+
+# %%
+# método vaues retorna os valores do dicionário
+dictionary.values()
+
+# %% retorna os pares dos dicionários - chave e valor
+
+dictionary.items()
