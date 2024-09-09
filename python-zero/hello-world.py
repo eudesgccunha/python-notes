@@ -217,6 +217,11 @@ print(plvr)
 plvr.count('C') # aqui tem que ser uma letra minúscula, já que foi utilizado o método .lower
 
 # %%
-tupla = ('Eudes', 'Cunha', 29, 1.82)
+t = ('Eudes', 'Cunha', 29, 1.82)
 
-print(tupla)
+print(t)
+
+# %%
+# Para saber o tipo da variável basta usar a função type
+type(t)
+# %%
