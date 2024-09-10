@@ -145,3 +145,43 @@ for i in range(3): # range de 3 tentativas
     
     else: 
         print('Você errou. Tente novamente!')
+
+# %%
+
+
+
+def valida_entrada():
+    ''' Esta função valida a entrada do usuário para evitar problemas futuros'''
+    
+    while True:
+        try:
+            numero = int(input('Entre com um número de 1 a 15:'))
+            break
+        
+        except ValueError:
+            print('Escreva um número/algarismo!')
+            continue
+        
+        if 1 <= numero <=15:
+            return numero
+        else:
+            print('Digite um número válido.')
+
+numero_sorte = 7
+
+for i in range(3): # range de 3 tentativas
+        
+    numero = valida_entrada()
+
+    if numero == numero_sorte:
+        print('Você acertou!')
+        break
+
+    else: 
+        print('Você errou. Tente novamente!')
+# %%
+
+
+
+
+#%%
