@@ -1,2 +1,3 @@
-# MeusProjetos
- Primeiro repositório em Python
+# pythonNotes
+ 
+ Revisando conteúdos em python.
