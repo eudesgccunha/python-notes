@@ -109,4 +109,39 @@ a, b = b, a
 print(a, b)
 # %%
 
+numero_sorte = 7
 
+
+for i in range(3): # range de 3 tentativas
+    
+    while True:
+        try:
+            numero = int(input('Entre com um número de 1 a 15:'))
+            break
+        
+        except ValueError:
+            print('Escreva um número/algarismo!')
+            numero_sorte = 7
+
+
+for i in range(3): # range de 3 tentativas
+    try:
+        numero = int(input('Entre com um número de 1 a 15:'))
+
+    except ValueError:
+        print('Escreva um número/algarismo!')
+        # continue
+
+    if numero == numero_sorte:
+        print('Você acertou!')
+        break
+    
+    else: 
+        print('Você errou. Tente novamente!')
+
+    if numero == numero_sorte:
+        print('Você acertou!')
+        break
+    
+    else: 
+        print('Você errou. Tente novamente!')

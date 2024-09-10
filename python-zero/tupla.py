@@ -12,4 +12,11 @@ print(tupla)
 # %%
 # número da sorte com 3 tentativas
 
+t = ('Eudes', 'Cunha', 29, 1.82)
 
+print(t)
+
+# %%
+# Para saber o tipo da variável basta usar a função type
+type(t)
+# %%
