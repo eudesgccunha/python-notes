@@ -296,3 +296,37 @@ for i in range(3): # range de 3 tentativas
     else: 
         print('Você errou. Tente novamente!')
 # %%
+
+# ler arquivos e sobrescrever
+
+arquivo = open('arquivo.txt', 'w') # o w significa escrever (sobrescrevendo)
+arquivo.write('Notas de python')
+arquivo.close()
+# %%
+# para adicionar linhas, use o 'a'
+archive = open('archive.txt', 'a')
+archive.write('Python notes')
+archive.close()
+# %%
+# para ler o arquivo , use o 'r' de read
+archive = open('archive.txt', 'r')
+content = archive.read()
+archive.close()
+
+print(content)
+# %%
+# para ler linhas 
+archive = open('archive.txt', 'r')
+line = archive.readlines()
+archive.close()
+
+print(line)
+
+# %%
+# é preferível usar o with para abrir arquivos, conexão com banco de dados ou qualquer coisa para garantir que no final da execução o arquivo seja fechado
+
+with open('arquivo.txt', 'r') as file:
+    info = file.read()
+    
+print(info)
+# %%
