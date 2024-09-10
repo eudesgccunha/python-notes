@@ -240,6 +240,7 @@ except ValueError as err:
     
 # %%
 
+
 numero_sorte = 7
 
 

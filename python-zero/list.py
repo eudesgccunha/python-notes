@@ -180,3 +180,36 @@ soma = sum(alturas)
 print(soma)
 
 # %%
+
+# unpack de listas
+
+dados = ['eudes', 'cunha']
+
+nome, sobrenome = dados # nesse caso, o primeiro elemento será atribuído à primeira variável e o segundo elemento à segunda variável
+
+print(nome)
+print(sobrenome)
+# %%
+
+# unpack de listas
+
+dados = ['eudes', 'cunha', 29, 1.82]
+
+nome, sobrenome, *extra = dados # nesse caso, o primeiro elemento será atribuído à primeira variável e o segundo elemento à segunda variável
+
+print(nome)
+print(sobrenome)
+print(extra) # extra com o * antes compila todo o resto dos itens da lista
+
+# %%
+
+# unpack de listas
+
+dados = ['eudes', 'cunha', 29, 1.82, 'kate']
+
+nome, sobrenome, *_, wife = dados # O *_ representa tudo o que eu não quero extrair da lista. Neste caso, a variável wife vai pegar o ultimo item da lista
+
+print(nome)
+print(sobrenome)
+print(wife) 
+# %%
