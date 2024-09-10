@@ -216,12 +216,83 @@ plvr = "Carro, BIKE, TriCiclo".upper()
 print(plvr)
 plvr.count('C') # aqui tem que ser uma letra minúscula, já que foi utilizado o método .lower
 
-# %%
-t = ('Eudes', 'Cunha', 29, 1.82)
 
-print(t)
+numero_sorte = 7
+
+
+for i in range(3): # range de 3 tentativas
+    numero = int(input('Entre com um número de 1 a 15:'))
+    if numero == numero_sorte:
+        print('Você acertou!')
+        break
+    else: 
+        print('Você errou. Tente novamente!')
+   
 
 # %%
-# Para saber o tipo da variável basta usar a função type
-type(t)
+
+
+try:
+    numero = int(input('Entre com um número de 1 a 15:'))
+
+except ValueError as err:
+    print('Escreva um número/algarismo!')
+    
+# %%
+
+
+numero_sorte = 7
+
+
+for i in range(3): # range de 3 tentativas
+    try:
+        numero = int(input('Entre com um número de 1 a 15:'))
+
+    except ValueError:
+        print('Escreva um número/algarismo!')
+        continue
+
+    if numero == numero_sorte:
+        print('Você acertou!')
+        break
+    
+    else: 
+        print('Você errou. Tente novamente!')
+# %%
+numero_sorte = 7
+
+
+for i in range(3): # range de 3 tentativas
+    
+    while True:
+        try:
+            numero = int(input('Entre com um número de 1 a 15:'))
+            break
+        
+        except ValueError:
+            print('Escreva um número/algarismo!')
+            numero_sorte = 7
+
+
+for i in range(3): # range de 3 tentativas
+    try:
+        numero = int(input('Entre com um número de 1 a 15:'))
+
+    except ValueError:
+        print('Escreva um número/algarismo!')
+        # continue
+
+    if numero == numero_sorte:
+        print('Você acertou!')
+        break
+    
+    else: 
+        print('Você errou. Tente novamente!')
+
+    if numero == numero_sorte:
+        print('Você acertou!')
+        break
+    
+    else: 
+        print('Você errou. Tente novamente!')
 # %%
