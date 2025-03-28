@@ -2,3 +2,11 @@
 *.xlsx
 arquivo.txt
 archive.txt
+.pyc
+/__pycache__/
+*.db
+*.sqlite3
+*.pkl
+*.json
+*.log
+*.zip
