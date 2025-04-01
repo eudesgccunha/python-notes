@@ -13,3 +13,9 @@ archive.txt
 *jpg
 *.jpeg
 *.png
+/django_project
+/venv
+*.env
+/djangoBeginner
+*.sqlite3
+manage.py
