@@ -14,8 +14,35 @@ archive.txt
 *.jpeg
 *.png
 /django_project
-/venv
-*.env
 /djangoBeginner
 *.sqlite3
 manage.py
+
+# Arquivos do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Arquivos do ambiente virtual
+venv/
+.env
+*.env
+
+# Configurações do editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de log e banco de dados local
+*.log
+db.sqlite3
+
+# Arquivos de dependências locais
+node_modules/
+npm-debug.log
+
+# Arquivos estáticos e de mídia gerados automaticamente
+staticfiles/
+media/
